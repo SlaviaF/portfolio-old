@@ -1,5 +1,6 @@
 import React from 'react'
 import skillsData from './skillsData'
+console.log(skillsData)
 const Skills = () => {
     return (
         <div className="skills common-animation">
@@ -12,8 +13,7 @@ const Skills = () => {
                         {skillsData.map(skill=> <li key={skill.id}><img src={skill.img} alt="html" /><p>{skill.skill}</p></li>)}
                     </ul>
                 </div>
-         </div>
-    )
+         </div>)
 }
 
 export default Skills
