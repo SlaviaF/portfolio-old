@@ -182,7 +182,8 @@ body{
 }
 /* projects*/
 .projects {
-  width: 100%;
+  width: 100vw;
+  height:100vh;
   padding: 3rem 0;
   background-image: url("./images/bg8.jpg");
   background-position: center;
