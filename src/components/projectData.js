@@ -1,6 +1,6 @@
 import giphy from "../images/project-images/giphy.png"
 import githubUser from "../images/project-images/github_user.png"
-import mealSharing from "../images/project-images/meal_sharing.png"
+import mealSharing from "../images/project-images/meal_sharing_app.png"
 import weatherApp from "../images/project-images/weather_app.png"
 const projectsData =[
     {
