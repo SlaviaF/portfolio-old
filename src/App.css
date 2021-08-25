@@ -161,9 +161,9 @@ body{
 
 
 .about{
-  width: 100%;
+  width: 100vw;
   height:100vh;
-  padding: 10rem 0;
+  padding: 5rem 0;
   background-image: url("./images/bg8.jpg");
   background-position: center;
   background-size: cover;
@@ -232,8 +232,8 @@ body{
 /*skill*/
 .skills{
     width: 100vw;
-    height:100vw;
-    padding:  0;
+    height:100vh;
+    padding: 3rem 0;
     background-image: url("./images/bg8.jpg");
     background-position: center;
     background-size: cover;
@@ -275,7 +275,7 @@ body{
 /*contacts*/
 .contact {
   width: 100vw;
-  height:100vw;
+  height:100vh;
   padding: 100px 0;
   background-image: url("./images/bg8.jpg");
   background-position: center;
