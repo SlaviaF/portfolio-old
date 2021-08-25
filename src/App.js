@@ -7,7 +7,7 @@ import Projects from "./components/Projects";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
