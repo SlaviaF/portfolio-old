@@ -3,7 +3,7 @@ import projectsData from './projectData';
 
 const Projects = () => {
   return (
-    <div className="projects common-animation">
+    <div className="projects common-animation py-5">
       <div className="container">
           <div className="common">
             <h3 className="heading">PROJECTS</h3>
