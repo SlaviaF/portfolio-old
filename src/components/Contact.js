@@ -3,10 +3,10 @@ import {FaFacebookF, FaLinkedin, FaGithub } from 'react-icons/fa'
 
 const Contact = () => {
   return (
-    <div className="contact common-animation">
+    <div id = "contact"className="common-animation">
       <div className="container">
       <div className="common">
-                <h1 className="mainHeader">CONTACT ME AT</h1>
+                <h1 className="mainHeader">Contact Me At</h1>
               <p>
                 If you are looking for someone who is a quick learner and doesn't hesitate to dive into new challenges and oppotunities. Please contact me at
               </p>

@@ -14,7 +14,6 @@ function App() {
     <Router>
       <div>
         <div className="navbar">
-          <div className="navbar">
             <div className="container">
               <div className="navbar_container">
                 <div className="nav_left">
@@ -43,7 +42,6 @@ function App() {
                 </div>
               </div>
             </div>
-          </div>
         </div>
         <Switch>
           <Route path="/about">

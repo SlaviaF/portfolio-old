@@ -7,7 +7,7 @@ const projectsData =[
     id: 1,
     title: "Weather App",
     img: weatherApp, 
-    source: "https://github.com/SlaviaF/Weather-app/tree/master/weather"
+    source: "https://github.com/SlaviaF/weather"
 },
 {
     id: 2,
@@ -19,7 +19,7 @@ const projectsData =[
     id: 3,
     title: "Giphy Searcher App",
     img: giphy,
-    source: "https://github.com/SlaviaF/Weather-app/tree/master/weather"
+    source: "https://github.com/SlaviaF/giphySearcher"
 
 },
 {

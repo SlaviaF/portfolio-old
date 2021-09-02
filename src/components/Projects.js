@@ -3,7 +3,7 @@ import projectsData from './projectData';
 
 const Projects = () => {
   return (
-    <div className="projects common-animation">
+    <div id = "projects"className=" common-animation">
       <div className="container">
           <div className="common">
             <h3 className="heading">PROJECTS</h3>
@@ -13,7 +13,7 @@ const Projects = () => {
           <div className = "row">
             {projectsData.map(project => {
               return(
-                <div className="card" style={{width: "70%", margin:"2em auto", padding:"1em 1em", border:"2px solid darkgrey"}}>
+                <div className="card" style={{width: "100rem", margin:"2em auto", padding:"1em 1em", border:"2px solid darkgrey"}}>
                 <img src={project.img} className="card-img-top" alt={project.title}/>
                 <div className="card-body">
                 <p className="card-text"> <a href={project.source} target="_blank">Source  code</a> <div><p>{project.title}</p></div></p>

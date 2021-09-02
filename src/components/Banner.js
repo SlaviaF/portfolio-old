@@ -3,7 +3,7 @@ import { FaFacebookF, FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Banner = () => {
   return (
-    <header className="header">
+    <header id="header">
       <div className="container">
         <div className="row">
           <div className="header_content">
@@ -33,7 +33,7 @@ const Banner = () => {
               </ul>
               <h1>Hey, I am Slavia Furtado</h1>
               <div className="text">
-                <span>And, I'm a </span>
+                <span>And I am a </span>
               </div>
               <div className="typing-text">
                 <span>Web developer</span>

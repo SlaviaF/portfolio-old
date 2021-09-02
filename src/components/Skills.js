@@ -3,7 +3,7 @@ import skillsData from './skillsData'
 console.log(skillsData)
 const Skills = () => {
     return (
-        <div className="skills common-animation ">
+        <div id = "skills" className="common-animation ">
             <div className="container">  
                 <div className="common">
                 <h3 className="heading">SKILLS</h3>
