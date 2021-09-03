@@ -7,21 +7,22 @@ import Projects from "./components/Projects";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
     <Router>
       <div>
+        <div>
         <div className="navbar">
-            <div className="container">
-              <div className="navbar_container">
-                <div className="nav_left">
-                  <div className="nav_left-logo">
-                    <h2 className="logo_brand">Slavia Furtado</h2>
-                  </div>
+          <div className="container">
+            <div className="navbar_container">
+              <div className="nav_left">
+                <div className="nav_left-logo">
+                  <h2 className="logo_brand">Slavia Furtado</h2>
                 </div>
-                <div className="nav-column">
+              </div>
+              <div className="nav-column">
                 <ul className="nav_right">
                   <li>
                     <Link to="/">Home</Link>
@@ -39,9 +40,9 @@ function App() {
                     <Link to="/contact">Contact</Link>
                   </li>
                 </ul>
-                </div>
               </div>
             </div>
+          </div>
         </div>
         <Switch>
           <Route path="/about">
@@ -60,6 +61,13 @@ function App() {
             <Banner />
           </Route>
         </Switch>
+        <Banner />
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
+        </div>
+       
       </div>
     </Router>
   );
