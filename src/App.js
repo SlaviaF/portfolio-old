@@ -11,65 +11,47 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <Router>
-      <div>
-        <div>
-        <div className="navbar">
-          <div className="container">
-            <div className="navbar_container">
-              <div className="nav_left">
-                <div className="nav_left-logo">
-                  <h2 className="logo_brand">Slavia Furtado</h2>
-                </div>
+    <div>
+      <div className="navbar">
+        <div className="container">
+          <div className="navbar_container">
+            <div className="nav_left">
+              <div className="nav_left-logo">
+                <h2 className="logo_brand">Slavia Furtado</h2>
               </div>
-              <div className="nav-column">
-                <ul className="nav_right">
-                  <li>
-                    <Link to="/">Home</Link>
-                  </li>
-                  <li>
-                    <Link to="/about">About</Link>
-                  </li>
-                  <li>
-                    <Link to="/skills">Skills</Link>
-                  </li>
-                  <li>
-                    <Link to="/projects">Projects</Link>
-                  </li>
-                  <li>
-                    <Link to="/contact">Contact</Link>
-                  </li>
-                </ul>
-              </div>
+            </div>
+            <div className="nav-column">
+              <ul className="nav_right">
+                <li>
+                  <a href="#header">Home</a>
+                </li>
+
+                <li>
+                  <a href="#about">About</a>
+                </li>
+
+                <li>
+                  <a href="#skills">Skills</a>
+                </li>
+
+                <li>
+                  <a href="#projects">Projects</a>
+                </li>
+
+                <li>
+                  <a href="#contact">Contact</a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
-        <Switch>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/skills">
-            <Skills />
-          </Route>
-          <Route path="/projects">
-            <Projects />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-          {/*<Route path="/">
-            <Banner />
-  </Route>*/}
-        </Switch>
-        <Banner />
-        <About />
-        <Skills />
-        <Projects />
-        <Contact />
-        </div>
-       
       </div>
-    </Router>
+      <Banner />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
+    </div>
   );
 }
 
