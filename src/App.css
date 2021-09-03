@@ -153,17 +153,7 @@ body {
   background-position: center;
   background-size: cover;
 }
-.common-animation {
-  animation: slidein 0.9s ease-in;
-}
-@keyframes slidein {
-  0% {
-    transform: skewX(5deg);
-  }
-  100% {
-    transform: skew(0deg);
-  }
-}
+
 /* projects*/
 #projects {
   width: 100vw;
@@ -322,7 +312,13 @@ body {
   }
 .skills{
   background-size: cover;
+  padding:1em;
 
+}
+
+#projects {
+
+  padding:0 2em;
 }
   .my_image {
     display: none;
