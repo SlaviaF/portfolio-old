@@ -57,9 +57,9 @@ function App() {
           <Route path="/contact">
             <Contact />
           </Route>
-          <Route path="/">
+          {/*<Route path="/">
             <Banner />
-          </Route>
+  </Route>*/}
         </Switch>
         <Banner />
         <About />
