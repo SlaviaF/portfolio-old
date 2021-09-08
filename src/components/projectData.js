@@ -5,9 +5,9 @@ import weatherApp from "../images/project-images/weather_app.png"
 const projectsData =[
     {
     id: 1,
-    title: "Weather App",
-    img: weatherApp, 
-    source: "https://github.com/SlaviaF/weather"
+    title: "Meal Sharing App", 
+    img: mealSharing, 
+    source: "https://github.com/SlaviaF/Meal-Sharing/tree/master/src"
 },
 {
     id: 2,
@@ -24,9 +24,9 @@ const projectsData =[
 },
 {
     id: 4,
-    title: "Meal Sharing App",
-    img: mealSharing, 
-    source: "https://github.com/SlaviaF/Meal-Sharing/tree/master/src"
+    title: "Weather App",
+    img: weatherApp,  
+    source: "https://github.com/SlaviaF/weather"
 }
 
 ]
