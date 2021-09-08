@@ -9,7 +9,7 @@ const Contact = () => {
           <h1 className="mainHeader">Contact Me At</h1>
           <p>
             If you are looking for someone who is a quick learner and doesn't
-            hesitate to dive into new challenges and oppotunities. Please
+            hesitate to dive into new challenges and opportunities. Please
             contact me at
           </p>
           <ul className="contactCircles">
