@@ -201,6 +201,10 @@ body {
   padding: "1em 1em";
   border: "2px solid darkgrey";
 }
+
+.card-img-top{
+  height:350px;
+}
 /*skill*/
 #skills {
   width: 100vw;
