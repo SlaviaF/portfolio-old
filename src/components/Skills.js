@@ -1,6 +1,5 @@
 import React from 'react'
 import skillsData from './skillsData'
-console.log(skillsData)
 const Skills = () => {
     return (
         <div id = "skills" className="common-animation ">
@@ -10,7 +9,7 @@ const Skills = () => {
                 <h1 className="mainHeader">What I know</h1>
                 </div>
                     <ul className="skillList">
-                        {skillsData.map(skill=> <li key={skill.id}><img src={skill.img} alt="html" /><p>{skill.skill}</p></li>)}
+                        {skillsData.map(skill=> <li className="skills_img" key={skill.id}><img src={skill.img} alt="html" /><p>{skill.skill}</p></li>)}
                     </ul>
                 </div>
          </div>)

@@ -7,11 +7,7 @@ const AboutMe = () => {
                 <div className="common">
                 <h3 className="heading">ABOUT ME</h3>
                 <h1 className="mainHeader">Who Am I?</h1>
-            <p className="mainContent"> I'm a recent graduate from Hack Your Future, Copenhagen (HYF), a non profit coding school which helps students in acquiring the necessary skills to become web developers. 
-                I have extensive experience in customer service, which has taught me to be a people person. 
-               <br /> 
-                My passion for coding started when I was looking for a career change and started looking for some IT courses until I came across HYF 
-                and since then there has been no looking back . I have worked on different projects and I have experience working with Html, CSS, Javascript, NodeJs, ExpressJs, ReactJs and MySQL</p>
+            <p className="mainContent">A frontend developer with experience in Svelte and ReactJS framework. I started on my web development journey 2 years ago with a course in Full stack development  at Hack Your Future. Throughout the course we had hands on experience building projects with ReactJS and NodeJS. After which I found an intership for 6 months, where I mainly focussed on UX designing and also build responsive web pages. Soon enough I landed a full time position at Exitplanner, where I have build features using Svelte, SvelteKit, Hasura, GraphQL and Tailwind CSS. I also gained skills in writing clean, manageable and reusable code.  </p>
             <div className="commonBorder"></div>
                 </div>
             </div>
