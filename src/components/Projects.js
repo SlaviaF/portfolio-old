@@ -33,9 +33,6 @@ const Projects = () => {
                       Source code
                     </a>
                     <br/>
-                    <a href={project.url} target="_blank">
-                      View Live
-                    </a>
                     <div>
                       <p>{project.title}</p>
                     </div>
