@@ -51,6 +51,11 @@ body {
   font-weight: 500px;
   padding: 0 15px;
   color: rgb(253, 250, 250);
+  
+}
+
+.nav_right li a:hover {
+  color: rgb(175, 244, 249);
 }
 
 .row {
