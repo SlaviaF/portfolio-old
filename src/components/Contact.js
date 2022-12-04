@@ -3,10 +3,11 @@ import { FaFacebookF, FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <div id="contact" className="common-animation">
+    <div id="contact" className="common-animation bg">
       <div className="container">
         <div className="common">
           <h1 className="mainHeader">Contact Me At</h1>
+          <div className="common-bg">
           <p>
             If you are looking for someone who is a quick learner and doesn't
             hesitate to dive into new challenges and opportunities. Please
@@ -35,6 +36,7 @@ const Contact = () => {
               </a>
             </li>
           </ul>
+          </div>
         </div>
       </div>
     </div>

@@ -3,7 +3,7 @@ import projectsData from "./projectData";
 
 const Projects = () => {
   return (
-    <div id="projects" className=" common-animation">
+    <div id="projects" className=" common-animation bg">
       <div className="container">
         <div className="common">
           <h3 className="heading">PROJECTS</h3>
@@ -19,7 +19,7 @@ const Projects = () => {
                   width: "50em",
                   margin: "2em auto",
                   padding: "1em 1em",
-                  border: "2px solid darkgrey",
+                
                 }}
               >
                 <img
